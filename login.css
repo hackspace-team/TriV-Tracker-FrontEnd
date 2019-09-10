@@ -1,7 +1,13 @@
-body {font-family: Arial, Helvetica, sans-serif;}
+/* LOGIN PAGE */
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    backgound-image: 
+}
 
 /* Full-width input fields */
-input[type=text], input[type=password] {
+input[type=text], input[type=password], input[type=email] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -22,7 +28,7 @@ button {
 }
 
 button:hover {
-  opacity: 0.8;
+  opacity: 0.8; 
 }
 
 
@@ -59,36 +65,11 @@ span.psw {
   height: 70%;
 }
 
-/* The Close Button (x) */
-.close {
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
-}
 
 .close:hover,
 .close:focus {
   color: red;
   cursor: pointer;
-}
-
-/* Add Zoom Animation */
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
-}
-
-@-webkit-keyframes animatezoom {
-  from {-webkit-transform: scale(0)} 
-  to {-webkit-transform: scale(1)}
-}
-  
-@keyframes animatezoom {
-  from {transform: scale(0)} 
-  to {transform: scale(1)}
 }
 
 /* Change styles for span and cancel button on extra small screens */
